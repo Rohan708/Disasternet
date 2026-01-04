@@ -1,0 +1,22 @@
+{
+  "name": "disasternet-backend-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@chainsafe/libp2p-gossipsub": "^14.1.2",
+    "@libp2p/identify": "^4.0.7",
+    "@libp2p/mdns": "^12.0.8",
+    "@libp2p/ping": "^3.0.7",
+    "@libp2p/websockets": "^10.1.2",
+    "cors": "latest",
+    "express": "latest",
+    "libp2p": "^3.0.7",
+    "uint8arrays": "latest",
+    "yargs": "latest"
+  }
+}
